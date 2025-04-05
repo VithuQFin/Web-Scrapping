@@ -114,7 +114,7 @@ def update_dashboard(n, time_range):
     
     # Mettre à jour le rapport quotidien (seulement à 20h)
     now = datetime.now(pytz.UTC).astimezone(pytz.timezone('Europe/Paris'))
-    report = daily_report(df) if now.time() >= time(20, 0) else dash.no_update
+    report = daily_report(df) if now.time() >= time(20, 0) else None
     
     # Mettre à jour le prix en temps réel
     realtime = get_latest_price(df)
