@@ -1,0 +1,7 @@
+cron.log
+debug.log
+nohup.out
+prices.txt
+venv/
+recent_prices.csv
+historical_prices.csv
