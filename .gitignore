@@ -4,3 +4,13 @@ debug.log
 prices.txt
 venv/
 recent_prices.csv
+cron.log
+debug.log
+nohup.out
+prices.txt
+venv/
+recent_prices.csv
+historical_prices.csv
+*.log
+*.csv
+nohup.out
