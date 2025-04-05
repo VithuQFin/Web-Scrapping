@@ -1,3 +1,4 @@
+
 cron.log
 debug.log
 nohup.out
@@ -5,3 +6,14 @@ prices.txt
 venv/
 recent_prices.csv
 historical_prices.csv
+*.log
+*.csv
+debug.log
+prices.txt
+debug.log
+*.log
+*.csv
+prices.txt
+venv/
+recent_prices.csv
+
