@@ -17,3 +17,4 @@ prices.txt
 venv/
 recent_prices.csv
 
+*.swp
