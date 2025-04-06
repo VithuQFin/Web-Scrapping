@@ -12,7 +12,7 @@ app.title = "Tableau de Bord de Web Scrapping - Finviz (ANET)"
 def load_data():
     # Charger les données historiques
     try:
-        historical = pd.read_csv('/home/ubuntu/Web-Scrapping/historical_prices.csv')
+        historical = pd.read_csv('/home/ec2-user/Web-Scrapping/historical_prices.csv')
         historical['Date'] = pd.to_datetime(historical['Date'])
         historical = historical.rename(columns={'Date': 'Time', 'Price': 'Price'})
     except FileNotFoundError:
@@ -20,7 +20,7 @@ def load_data():
 
     # Charger les données récentes
     try:
-        recent = pd.read_csv('/home/ubuntu/Web-Scrapping/recent_prices.csv', names=['Time', 'Price'])
+        recent = pd.read_csv('/home/ec2-user/Web-Scrapping/recent_prices.csv', names=['Time', 'Price'])
         recent['Time'] = pd.to_datetime(recent['Time'])
     except FileNotFoundError:
         recent = pd.DataFrame(columns=['Time', 'Price'])
