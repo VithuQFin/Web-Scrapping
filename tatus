@@ -1,0 +1,110 @@
+[33mcommit 1d5f147d18d558138be4a1e713f2bde88e093346[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mVithu[m[33m)[m
+Merge: ee055de1 ca378fab
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 23:43:31 2025 +0000
+
+    Merge branch 'main' of https://github.com/VithuQFin/Web-Scrapping
+
+[33mcommit ee055de188e107458f38e5265089518ea1978b2f[m
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 23:40:32 2025 +0000
+
+    Arrêter de suivre nohup.out et mettre à jour .gitignore
+
+[33mcommit e3674770bac29d50ff1bf5cae921b6df25cc32a1[m
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 23:35:38 2025 +0000
+
+    MAJ
+
+[33mcommit ca378fabdd5cb0fc82485770b941a2ffc883ac54[m
+Author: Rudman2 <rudylogghe2707@gmail.com>
+Date:   Sat Apr 5 23:11:04 2025 +0000
+
+    Ajouter *.swp à .gitignore pour ignorer les fichiers de swap de vim
+
+[33mcommit fdf96035c192ac2f9cb546b3bbaefa8a8d2d3165[m
+Merge: e5ed9d03 92d7a443
+Author: EC2 Default User <ec2-user@ip-172-31-12-91.eu-west-3.compute.internal>
+Date:   Sat Apr 5 23:02:09 2025 +0000
+
+    Merge branch 'main' of https://github.com/VithuQFin/Web-Scrapping
+
+[33mcommit e5ed9d034cd045a3da4ff12e766696970d8f772f[m
+Author: EC2 Default User <ec2-user@ip-172-31-12-91.eu-west-3.compute.internal>
+Date:   Sat Apr 5 22:31:59 2025 +0000
+
+    Ajouter .gitignore pour ignorer venv/ et autres fichiers générés
+
+[33mcommit 4a5c66c65012448610ca2e6956135a711665d480[m
+Author: EC2 Default User <ec2-user@ip-172-31-12-91.eu-west-3.compute.internal>
+Date:   Sat Apr 5 22:26:34 2025 +0000
+
+    Mettre à jour .gitignore pour ignorer les fichiers générés
+
+[33mcommit d890277c93c0afc0bd5398a44e51495eead414e7[m
+Author: EC2 Default User <ec2-user@ip-172-31-12-91.eu-west-3.compute.internal>
+Date:   Sat Apr 5 22:25:52 2025 +0000
+
+    Ajouter un tableau de bord interactif avec Dash dans app.py, mettre à jour requirements.txt et README.md
+
+[33mcommit 92d7a443daedb1c9369e0e84f0ba5d192ea2c8b3[m
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 21:54:07 2025 +0000
+
+    Arrêter de suivre recent_prices.csv et l'ajouter à .gitignore
+
+[33mcommit a0c678b2e3ca4ee79ce68b6a4012c1b695cd5025[m
+Merge: 89d9d904 27ed6046
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 21:50:28 2025 +0000
+
+    Merge branch 'main' of https://github.com/VithuQFin/Web-Scrapping
+
+[33mcommit 89d9d9047cfa571f244859343f06c7230c744395[m
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 21:36:34 2025 +0000
+
+    Ne plus suivre debug.log et prices.txt en les ajoutant à .gitignore
+
+[33mcommit 27ed6046031a32de89b6dcc548fed7a6e3abbcaf[m
+Merge: 53a306fb d8e4e8e7
+Author: VithuQFin <vithusan.kailasapillai@outlook.fr>
+Date:   Sat Apr 5 23:26:23 2025 +0200
+
+    Merge pull request #2 from VithuQFin/historical-data-vithu
+    
+    Mise à jour de recent_prices.csv avec les dernières données scrapées
+
+[33mcommit d8e4e8e73e9f657f5691cb00ede0942788cddac1[m[33m ([m[1;31morigin/historical-data-vithu[m[33m, [m[1;32mhistorical-data-vithu[m[33m)[m
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 21:12:36 2025 +0000
+
+    Mise à jour de recent_prices.csv avec les dernières données scrapées
+
+[33mcommit 53a306fbda3cf7ed4bc72dcc3ba3770a37aac66a[m
+Merge: 2ab9688b fa808404
+Author: VithuQFin <vithusan.kailasapillai@outlook.fr>
+Date:   Sat Apr 5 22:58:27 2025 +0200
+
+    Merge pull request #1 from VithuQFin/historical-data-vithu
+    
+    Ajout des données historiques avec yfinance dans historicaldata.py
+
+[33mcommit fa808404fea9e73f62d9d3428b14ff6b3d9089c9[m
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 20:47:56 2025 +0000
+
+    Ajout des données historiques avec yfinance dans historicaldata.py
+
+[33mcommit 2ab9688b72048643f496cd11461d9ebec0e1db0e[m
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 16:51:17 2025 +0000
+
+    Initial commit : ajout des fichiers du projet Web-Scrapping (app.py, scrape.sh, README.md, etc.)
+
+[33mcommit b09ec3ad41dfe79a51901dc19830ba45c4cc3474[m
+Author: Ubuntu <ubuntu@ip-172-31-38-27.eu-north-1.compute.internal>
+Date:   Sat Apr 5 16:43:57 2025 +0000
+
+    Finalisation du projet : ajout de requirements.txt et mise à jour du README pour le coéquipier
