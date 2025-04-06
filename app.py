@@ -249,7 +249,7 @@ block_content = [
 app.layout = html.Div([
 # Header
 html.Div([
-    html.H1("Tableau de Bord de Web Scrapping - Finviz (ANET)", className="text-3xl font-bold text-gray-200 text-center mb-4"),
+    html.H1("Tableau de Bord de Web Scrapping - Finviz (ANET | Arista Networks)", className="text-3xl font-bold text-gray-200 text-center mb-4"),
     html.P("Suivi en temps réel des prix de ANET via Finviz", className="text-lg text-gray-400 text-center mb-2"),
     html.P("Réalisé par Vithusan KAILASAPILLAI et Rudy LOGGHE", className="text-md text-gray-300 text-center mb-6")
 ], className="bg-gray-800 p-6 rounded-lg shadow-lg mb-6"),
