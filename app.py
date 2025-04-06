@@ -74,7 +74,7 @@ RECENT_FILE = os.path.join(BASE_DIR, 'recent_prices.csv')
 # Cache
 cached_data = None
 last_cache_time = None
-CACHE_DURATION = 300
+CACHE_DURATION = 290
 
 def load_data():
     global cached_data, last_cache_time
