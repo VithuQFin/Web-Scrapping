@@ -1,7 +1,7 @@
 import yfinance as yf
 import pandas as pd
 
-def historical_data(ticker="ANET", start_date="2025-01-01", end_date="2025-04-05"):
+def historical_data(ticker="ANET", start_date="2000-01-01", end_date="2025-04-05"):
     try:
         # Télécharger les données historiques avec yfinance
         data = yf.download(ticker, start=start_date, end=end_date)
