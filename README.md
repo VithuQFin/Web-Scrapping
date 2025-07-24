@@ -87,6 +87,8 @@ web-scrapping/
 ├── source/                 # Additional scripts (if any)
 └── venv/                   # Python virtual environment
 ```
+---
+
 ## 👥 Authors
 
     Vithusan KAILASAPILLAI
