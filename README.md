@@ -51,7 +51,9 @@ You can then access the dashboard at:
 http://<your-ip>:8050
 Replace <your-ip> with your local or EC2 IP address.
 
-⏲️ Set Up Cron Job (Optional)
+---
+
+## ⏲️ Set Up Cron Job (Optional)
 
 To automate scraping every 5 minutes:
 
@@ -64,7 +66,9 @@ crontab -e
 # 3. Add this line (replace path accordingly)
 */5 * * * * /path/to/web-scrapping/scrape.sh >> /path/to/web-scrapping/cron.log 2>&1
 
-📁 Key Files and Structure
+---
+
+## 📁 Key Files and Structure
 
 web-scrapping/
 ├── app.py                  # Dash dashboard
@@ -82,7 +86,7 @@ web-scrapping/
 ├── source/                 # Additional scripts (if any)
 └── venv/                   # Python virtual environment
 
-👥 Authors
+## 👥 Authors
 
     Vithusan KAILASAPILLAI
 
