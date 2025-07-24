@@ -70,6 +70,7 @@ crontab -e
 
 ## 📁 Key Files and Structure
 
+```plaintext
 web-scrapping/
 ├── app.py                  # Dash dashboard
 ├── scrape.sh               # Scraping script (Finviz)
@@ -85,7 +86,7 @@ web-scrapping/
 ├── .gitignore              # Files excluded from Git
 ├── source/                 # Additional scripts (if any)
 └── venv/                   # Python virtual environment
-
+```
 ## 👥 Authors
 
     Vithusan KAILASAPILLAI
