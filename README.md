@@ -33,18 +33,18 @@ This project scrapes the stock price of **Arista Networks (ANET)** from **Finviz
 
 ## 🛠️ Installation
 
-# 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/your-username/web-scrapping.git
 cd web-scrapping
 
-# 2. Create and activate a virtual environment
+2. Create and activate a virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
-# 3. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Launch the dashboard in background
+4. Launch the dashboard in background
 nohup python3 app.py &
 
 You can then access the dashboard at:
@@ -57,13 +57,13 @@ Replace <your-ip> with your local or EC2 IP address.
 
 To automate scraping every 5 minutes:
 
-# 1. Make the script executable
+1. Make the script executable
 chmod +x scrape.sh
 
-# 2. Open crontab
+2. Open crontab
 crontab -e
 
-# 3. Add this line (replace path accordingly)
+3. Add this line (replace path accordingly)
 */5 * * * * /path/to/web-scrapping/scrape.sh >> /path/to/web-scrapping/cron.log 2>&1
 
 ---
@@ -89,7 +89,6 @@ web-scrapping/
 ## 👥 Authors
 
     Vithusan KAILASAPILLAI
-
     Rudy LOGGHE
 
 
