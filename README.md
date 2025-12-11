@@ -1,16 +1,16 @@
-# 🕸️ Web Scraping Project – ANET (Finviz)
+#  Web Scraping Project – ANET (Finviz)
 
 This project scrapes the stock price of **Arista Networks (ANET)** from **Finviz** and displays the data in an interactive **Dash dashboard**.
 
 ---
 
-## 📌 Features
+##  Features
 
-- ⏱️ **Automated scraping every 5 minutes** via a Bash script (`scrape.sh`).
-- 💾 **Data storage**:
+-  **Automated scraping every 5 minutes** via a Bash script (`scrape.sh`).
+-  **Data storage**:
   - `historical_prices.csv`: enriched manually for long-term visualizations.
   - `recent_prices.csv`: updated every 5 minutes via `crontab`.
-- 📊 **Interactive dashboard** (`app.py`) includes:
+-  **Interactive dashboard** (`app.py`) includes:
   - Time-series chart with a **customizable SMA (Simple Moving Average)**.
   - **Daily report**: opening price, closing price, average, volatility, and performance.
   - **Period report**: for a custom date range (open, close, volatility, performance).
@@ -21,7 +21,7 @@ This project scrapes the stock price of **Arista Networks (ANET)** from **Finviz
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 - Python 3.12  
 - Git  
@@ -31,7 +31,7 @@ This project scrapes the stock price of **Arista Networks (ANET)** from **Finviz
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 1. Clone the repository
 git clone https://github.com/your-username/web-scrapping.git
@@ -53,7 +53,7 @@ Replace <your-ip> with your local or EC2 IP address.
 
 ---
 
-## ⏲️ Set Up Cron Job (Optional)
+##  Set Up Cron Job (Optional)
 
 To automate scraping every 5 minutes:
 
@@ -68,7 +68,7 @@ crontab -e
 
 ---
 
-## 📁 Key Files and Structure
+##  Key Files and Structure
 
 ```plaintext
 web-scrapping/
@@ -89,7 +89,7 @@ web-scrapping/
 ```
 ---
 
-## 👥 Authors
+##  Authors
 
     Vithusan KAILASAPILLAI
     Rudy LOGGHE
